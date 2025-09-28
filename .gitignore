@@ -1,0 +1,60 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node/JS
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Expo / React Native
+.expo/
+.expo-shared/
+.expo-dev-cache/
+.expo/web/
+web-build/
+dist/
+# If you create native projects (prebuild/eject), ignore platform folders
+ios/
+android/
+
+# Metro / Watchman caches
+.watchman/
+.haste_cache/
+
+# Build outputs
+build/
+.cache/
+.cache-loader/
+.tmp/
+tmp/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# OS / Misc
+Thumbs.db
+Desktop.ini
+
+# Website-specific (if built separately)
+website/node_modules/
+website/dist/
+website/build/
+website/.cache/
+
+# Partner app specific
+partner-app/.expo/
+partner-app/web-build/
+partner-app/dist/
+partner-app/.expo-shared/

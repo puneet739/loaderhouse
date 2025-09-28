@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "login": "Driver Login",
+    "home": "Partner Home",
+    "ride": "Ride"
+  },
+  "common": {
+    "online": "Online",
+    "offline": "Offline",
+    "accept": "Accept",
+    "reject": "Reject",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "status": "Status",
+    "vehicle": "Vehicle",
+    "distance": "Distance",
+    "eta": "ETA",
+    "fareEstimate": "Fare est",
+    "noRideSelected": "No ride selected.",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "login": {
+    "title": "Welcome Driver",
+    "subtitle": "Enter your details to continue",
+    "phone": "Phone",
+    "phonePlaceholder": "+91 98765 43210",
+    "name": "Name (optional)",
+    "namePlaceholder": "Your name",
+    "hint": "MVP: OTP is mocked. Tap Continue to proceed."
+  },
+  "home": {
+    "hello": "Hello {name}",
+    "ongoingBanner": "Ongoing ride in progress — tap to manage",
+    "availableRides": "Available Rides",
+    "emptyOnline": "No rides yet. Stay online to receive requests.",
+    "emptyOffline": "No rides yet. Switch online to start."
+  },
+  "ride": {
+    "arrivedAtPickup": "Arrived at Pickup",
+    "pickedUp": "Picked Up",
+    "startToDrop": "Start to Drop",
+    "delivered": "Delivered",
+    "acceptRide": "Accept Ride",
+    "cancelRideTitle": "Cancel Ride",
+    "cancelRideMessage": "Are you sure you want to cancel the ride?",
+    "rideCompletedTitle": "Ride completed",
+    "rideCompletedMessage": "Great job!",
+    "customer": "Customer",
+    "navigation": "Navigation",
+    "navigationInfo": "MVP: Integrate Google Maps intent later. For now, status updates are manual."
+  }
+}
