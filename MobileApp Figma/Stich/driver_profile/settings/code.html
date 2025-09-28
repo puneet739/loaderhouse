@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#0b73da",
+            "background-light": "#f5f7f8",
+            "background-dark": "#101922",
+            "foreground-light": "#0d141c",
+            "foreground-dark": "#f5f7f8",
+            "subtle-light": "#49739c",
+            "subtle-dark": "#a0b3c4"
+          },
+          fontFamily: {
+            "display": ["Work Sans"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex min-h-screen w-full flex-col justify-between">
+<div class="flex-grow">
+<header class="sticky top-0 z-10 flex items-center justify-between border-b border-white/10 bg-background-light/80 px-4 py-3 backdrop-blur-sm dark:bg-background-dark/80">
+<button class="flex items-center justify-center text-foreground-light dark:text-foreground-dark">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<h1 class="flex-1 text-center text-lg font-bold text-foreground-light dark:text-foreground-dark">Account</h1>
+<div class="w-8"></div>
+</header>
+<main class="p-4 sm:p-6">
+<div class="mb-8 flex flex-col items-center gap-4">
+<div class="relative">
+<img alt="Ethan Carter profile picture" class="h-28 w-28 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA16XHPBzBKhD1GlPUg_MMBOzMS-HVSGqAam3WEDii4s0WfcyjeYGblAf-iJdwgBuaG6lvlGELKiVUpVvyek2Av4HkuQCwd3mwJ4aMlG783X9XjM2oSfEkJhLPkHQExQnNBnNfTY0q0Ombvwc38HSragoBQoESGXuphGBmvbd9a3znklF_m7M1a3oTXU3oQtKxdJb7BzTXu7uzH2V_yflgS_Invl_N5l05Qu_2luDeYEM6nRRgqlMY80PdvadWSe8QONeEQvjybge5c"/>
+<button class="absolute bottom-0 right-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white">
+<span class="material-symbols-outlined text-base">edit</span>
+</button>
+</div>
+<div class="text-center">
+<p class="text-xl font-bold text-foreground-light dark:text-foreground-dark">Ethan Carter</p>
+<p class="text-sm text-subtle-light dark:text-subtle-dark">Driver ID: 123456789</p>
+</div>
+</div>
+<div class="space-y-6">
+<div>
+<h2 class="mb-3 text-lg font-bold text-foreground-light dark:text-foreground-dark">Driver Details</h2>
+<div class="space-y-1 rounded-lg bg-white/50 p-4 dark:bg-black/20">
+<div class="flex justify-between py-2">
+<p class="text-sm text-subtle-light dark:text-subtle-dark">Name</p>
+<p class="font-medium text-foreground-light dark:text-foreground-dark">Ethan Carter</p>
+</div>
+<div class="flex justify-between py-2">
+<p class="text-sm text-subtle-light dark:text-subtle-dark">Phone Number</p>
+<p class="font-medium text-foreground-light dark:text-foreground-dark">+1 (555) 123-4567</p>
+</div>
+<div class="flex justify-between py-2">
+<p class="text-sm text-subtle-light dark:text-subtle-dark">Email</p>
+<p class="font-medium text-foreground-light dark:text-foreground-dark">ethan.carter@email.com</p>
+</div>
+</div>
+</div>
+<div>
+<h2 class="mb-3 text-lg font-bold text-foreground-light dark:text-foreground-dark">Vehicle Information</h2>
+<div class="space-y-1 rounded-lg bg-white/50 p-4 dark:bg-black/20">
+<div class="flex justify-between py-2">
+<p class="text-sm text-subtle-light dark:text-subtle-dark">Vehicle Make</p>
+<p class="font-medium text-foreground-light dark:text-foreground-dark">Toyota Camry</p>
+</div>
+<div class="flex justify-between py-2">
+<p class="text-sm text-subtle-light dark:text-subtle-dark">Vehicle Year</p>
+<p class="font-medium text-foreground-light dark:text-foreground-dark">2020</p>
+</div>
+<div class="flex justify-between py-2">
+<p class="text-sm text-subtle-light dark:text-subtle-dark">License Plate</p>
+<p class="font-medium text-foreground-light dark:text-foreground-dark">ABC-1234</p>
+</div>
+</div>
+</div>
+<div>
+<h2 class="mb-3 text-lg font-bold text-foreground-light dark:text-foreground-dark">Documents</h2>
+<div class="space-y-1 rounded-lg bg-white/50 p-4 dark:bg-black/20">
+<div class="flex items-center justify-between py-2">
+<p class="font-medium text-foreground-light dark:text-foreground-dark">Driver's License</p>
+<div class="flex items-center gap-2 text-primary">
+<span class="text-sm font-medium">Uploaded</span>
+<span class="material-symbols-outlined text-xl">check_circle</span>
+</div>
+</div>
+<div class="flex items-center justify-between py-2">
+<p class="font-medium text-foreground-light dark:text-foreground-dark">Vehicle Registration</p>
+<div class="flex items-center gap-2 text-primary">
+<span class="text-sm font-medium">Uploaded</span>
+<span class="material-symbols-outlined text-xl">check_circle</span>
+</div>
+</div>
+<div class="flex items-center justify-between py-2">
+<p class="font-medium text-foreground-light dark:text-foreground-dark">Insurance</p>
+<div class="flex items-center gap-2 text-primary">
+<span class="text-sm font-medium">Uploaded</span>
+<span class="material-symbols-outlined text-xl">check_circle</span>
+</div>
+</div>
+</div>
+</div>
+<div>
+<h2 class="mb-3 text-lg font-bold text-foreground-light dark:text-foreground-dark">Support</h2>
+<button class="flex w-full items-center justify-between rounded-lg bg-white/50 p-4 text-left dark:bg-black/20">
+<span class="font-medium text-foreground-light dark:text-foreground-dark">Help Center</span>
+<span class="material-symbols-outlined text-subtle-light dark:text-subtle-dark">chevron_right</span>
+</button>
+</div>
+</div>
+</main>
+</div>
+<footer class="sticky bottom-0 border-t border-white/10 bg-background-light/80 px-4 pt-2 pb-4 backdrop-blur-sm dark:bg-background-dark/80">
+<nav class="flex justify-around">
+<a class="flex flex-col items-center gap-1 text-subtle-light dark:text-subtle-dark" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="text-xs font-medium">Home</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-subtle-light dark:text-subtle-dark" href="#">
+<span class="material-symbols-outlined">payments</span>
+<span class="text-xs font-medium">Earnings</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-primary" href="#">
+<span class="material-symbols-outlined">person</span>
+<span class="text-xs font-bold">Profile</span>
+</a>
+</nav>
+</footer>
+</div>
+
+</body></html>

@@ -2,6 +2,25 @@
 // Choose from: 'sapphire', 'emerald', 'sunset'
 
 const palettes = {
+  light: {
+    name: 'Light',
+    bg: '#f5f7f8',
+    surface: '#ffffff',
+    surface2: '#f8fafc',
+    border: '#cbd5e1',
+    text: '#0f172a',
+    textDim: '#64748b',
+    textMuted: '#334155',
+    primary: '#0b73da',
+    primaryAlt: '#095fb3',
+    accent: '#0ea5e9',
+    danger: '#ef4444',
+    success: '#22c55e',
+    warning: '#f59e0b',
+    badge: '#0b73da',
+    header: '#f5f7f8',
+    card: '#ffffff',
+  },
   sapphire: {
     name: 'Sapphire',
     bg: '#0b1220',
@@ -77,7 +96,7 @@ const radius = {
 };
 
 // Pick the default theme here
-const activeThemeKey = 'sapphire';
+const activeThemeKey = 'light';
 
 export const theme = palettes[activeThemeKey];
 export const themes = palettes;

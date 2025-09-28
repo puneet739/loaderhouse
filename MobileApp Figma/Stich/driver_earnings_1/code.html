@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Earnings</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0b73da",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Work Sans"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-800 dark:text-slate-200">
+<div class="relative flex h-auto min-h-screen w-full flex-col justify-between">
+<div class="flex-grow">
+<header class="flex items-center p-4">
+<button class="flex h-10 w-10 items-center justify-center rounded-full bg-background-light dark:bg-background-dark/50">
+<span class="material-symbols-outlined">arrow_back_ios_new</span>
+</button>
+<h1 class="flex-1 text-center text-lg font-bold pr-10">Earnings</h1>
+</header>
+<main class="px-4 py-6">
+<div class="mb-8">
+<p class="text-sm font-medium text-slate-500 dark:text-slate-400">Today's Earnings</p>
+<p class="text-4xl font-bold text-slate-900 dark:text-white mt-1">$125.50</p>
+</div>
+<div class="mb-8">
+<h2 class="text-lg font-bold mb-3">Summary</h2>
+<div class="grid grid-cols-2 gap-4">
+<div class="rounded-lg bg-background-light dark:bg-background-dark/50 p-4 shadow-[0_4px_12px_rgba(0,0,0,0.05)] dark:shadow-[0_4px_12px_rgba(0,0,0,0.1)]">
+<p class="text-sm font-medium text-slate-500 dark:text-slate-400">This week</p>
+<p class="text-2xl font-bold text-slate-900 dark:text-white mt-1">$550.00</p>
+</div>
+<div class="rounded-lg bg-background-light dark:bg-background-dark/50 p-4 shadow-[0_4px_12px_rgba(0,0,0,0.05)] dark:shadow-[0_4px_12px_rgba(0,0,0,0.1)]">
+<p class="text-sm font-medium text-slate-500 dark:text-slate-400">This month</p>
+<p class="text-2xl font-bold text-slate-900 dark:text-white mt-1">$2,200.00</p>
+</div>
+</div>
+</div>
+<div>
+<h2 class="text-lg font-bold mb-3">Wallet</h2>
+<div class="flex items-center justify-between rounded-lg bg-background-light dark:bg-background-dark/50 p-4 shadow-[0_4px_12px_rgba(0,0,0,0.05)] dark:shadow-[0_4px_12px_rgba(0,0,0,0.1)]">
+<div>
+<p class="text-lg font-bold text-slate-900 dark:text-white">$1,500.00</p>
+<p class="text-sm text-slate-500 dark:text-slate-400">Available balance</p>
+</div>
+<button class="rounded-full bg-primary px-6 py-2 text-sm font-bold text-white">Withdraw</button>
+</div>
+</div>
+</main>
+</div>
+<footer class="sticky bottom-0 border-t border-slate-200 dark:border-slate-800 bg-background-light dark:bg-background-dark/80 backdrop-blur-sm">
+<nav class="flex justify-around p-2">
+<a class="flex flex-col items-center gap-1 p-2 text-slate-500 dark:text-slate-400" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="text-xs font-medium">Home</span>
+</a>
+<a class="flex flex-col items-center gap-1 rounded-full bg-primary/10 dark:bg-primary/20 p-2 px-4 text-primary" href="#">
+<span class="material-symbols-outlined">account_balance_wallet</span>
+<span class="text-xs font-bold">Earnings</span>
+</a>
+<a class="flex flex-col items-center gap-1 p-2 text-slate-500 dark:text-slate-400" href="#">
+<span class="material-symbols-outlined">person</span>
+<span class="text-xs font-medium">Profile</span>
+</a>
+</nav>
+</footer>
+</div>
+
+</body></html>

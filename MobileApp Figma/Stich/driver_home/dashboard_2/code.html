@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Stitch Design</title>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Work+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#0b73da",
+            "background-light": "#f5f7f8",
+            "background-dark": "#101922",
+          },
+          fontFamily: {
+            "display": ["Work Sans"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+<div class="relative flex h-auto min-h-screen w-full flex-col justify-between overflow-x-hidden">
+<div class="flex-grow">
+<header class="flex items-center justify-between p-4 pb-2 bg-background-light dark:bg-background-dark">
+<div class="flex items-center gap-2">
+<span class="font-semibold">Offline</span>
+<button class="relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent bg-gray-300 dark:bg-gray-600 transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 dark:focus:ring-offset-background-dark">
+<span class="sr-only">Use setting</span>
+<span class="pointer-events-none inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out"></span>
+</button>
+<span class="font-semibold text-primary">Online</span>
+</div>
+<h1 class="text-lg font-bold flex-1 text-center">Home</h1>
+<button class="p-2">
+<span class="material-symbols-outlined text-gray-800 dark:text-gray-200">notifications</span>
+</button>
+</header>
+<main class="relative h-full flex-1">
+<div class="absolute inset-0 bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB8SC0bFg6L2KTlmkWdOm3-vRmtm-TwRTPS5bSjDoaXOIrdaxmB2QR58lxWXqelNbx0_MstW1iM8_Vl5kFzGz6ZOo3jmrE6Q2LylfH4jjPOHvVnQte7gLtpixcL9Yl4D-h4qo9JYCsRLdzOOVFVhaVarjGCCDNJEWKmGBd8r2nhEiFLbuITly22ExH6Ti-TOj9xGdVj2Jg3tMq683L9On81typ31HNGvDs0C1Ufk9LsP6VmBwSv9hsjoM8g8oGxTCoGCswtzhqiogBD");'></div>
+<div class="relative z-10 flex h-full flex-col justify-end p-4">
+<div class="flex flex-col items-end gap-3">
+<div class="flex flex-col overflow-hidden rounded-lg bg-background-light dark:bg-background-dark shadow-md">
+<button class="p-2 hover:bg-primary/10">
+<span class="material-symbols-outlined text-gray-800 dark:text-gray-200">add</span>
+</button>
+<hr class="border-gray-200 dark:border-gray-700"/>
+<button class="p-2 hover:bg-primary/10">
+<span class="material-symbols-outlined text-gray-800 dark:text-gray-200">remove</span>
+</button>
+</div>
+<button class="flex size-10 items-center justify-center rounded-full bg-background-light dark:bg-background-dark shadow-md hover:bg-primary/10">
+<span class="material-symbols-outlined text-gray-800 dark:text-gray-200">navigation</span>
+</button>
+</div>
+</div>
+</main>
+</div>
+<div class="absolute inset-0 z-20 flex flex-col justify-end bg-black/50">
+<div class="rounded-t-xl bg-background-light dark:bg-background-dark">
+<div class="flex justify-center py-2">
+<div class="h-1.5 w-10 rounded-full bg-gray-300 dark:bg-gray-600"></div>
+</div>
+<div class="p-4">
+<h2 class="text-lg font-bold text-gray-900 dark:text-white text-center mb-4">New Ride Request</h2>
+<div class="space-y-4">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary">trip_origin</span>
+<div class="flex-grow">
+<p class="text-sm font-semibold text-gray-900 dark:text-white">Pickup</p>
+<p class="text-sm text-gray-600 dark:text-gray-400">123 Main St, San Francisco, CA</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<div class="flex-grow">
+<p class="text-sm font-semibold text-gray-900 dark:text-white">Dropoff</p>
+<p class="text-sm text-gray-600 dark:text-gray-400">456 Oak Ave, San Francisco, CA</p>
+</div>
+</div>
+</div>
+<div class="mt-6 flex justify-between items-center bg-primary/10 dark:bg-primary/20 p-4 rounded-lg">
+<div>
+<p class="text-sm text-gray-600 dark:text-gray-300">Amount Offered</p>
+<p class="text-xl font-bold text-gray-900 dark:text-white">$25.00</p>
+</div>
+<div class="text-right">
+<p class="text-sm text-gray-600 dark:text-gray-300">Potential Tip</p>
+<p class="text-xl font-bold text-gray-900 dark:text-white">$5.00</p>
+</div>
+</div>
+<div class="mt-6 grid grid-cols-2 gap-4">
+<button class="w-full rounded-lg bg-red-500/20 dark:bg-red-500/30 py-3 text-sm font-bold text-red-600 dark:text-red-300 hover:bg-red-500/30 dark:hover:bg-red-500/40">Reject</button>
+<button class="w-full rounded-lg bg-green-500 py-3 text-sm font-bold text-white hover:bg-green-600">Accept</button>
+</div>
+</div>
+</div>
+</div>
+<div class="sticky bottom-0 border-t border-gray-200 dark:border-gray-700 bg-background-light dark:bg-background-dark pb-safe-area">
+<nav class="flex justify-around py-2">
+<a class="flex flex-col items-center gap-1 text-primary" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="text-xs font-medium">Home</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary" href="#">
+<span class="material-symbols-outlined">payments</span>
+<span class="text-xs font-medium">Earnings</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary" href="#">
+<span class="material-symbols-outlined">person</span>
+<span class="text-xs font-medium">Profile</span>
+</a>
+</nav>
+<div class="h-5 bg-background-light dark:bg-background-dark"></div>
+</div>
+</div>
+
+</body></html>
