@@ -7,6 +7,8 @@ import { useFonts, WorkSans_400Regular, WorkSans_500Medium, WorkSans_600SemiBold
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import LoginScreen from './src/screens/LoginScreen';
 import HomeScreen from './src/screens/HomeScreen';
+import ProfileScreen from './src/screens/ProfileScreen';
+import EarningsScreen from './src/screens/EarningsScreen';
 import RideScreen from './src/screens/RideScreen';
 import { AppStateProvider } from './src/context/AppState';
 import { theme } from './src/theme/theme';
@@ -30,8 +32,10 @@ function AppNavigator() {
         component={LoginScreen}
         options={{ title: t('nav.login'), headerShown: false }}
       />
-      <Stack.Screen name="Home" component={HomeScreen} options={{ title: t('nav.home') }} />
+      <Stack.Screen name="Home" component={HomeScreen} options={{ title: t('nav.home'), headerShown: false }} />
       <Stack.Screen name="Ride" component={RideScreen} options={{ title: t('nav.ride') }} />
+      <Stack.Screen name="Profile" component={ProfileScreen} options={{ title: 'Profile', headerShown: false }} />
+      <Stack.Screen name="Earnings" component={EarningsScreen} options={{ title: 'Earnings', headerShown: false }} />
     </Stack.Navigator>
   );
 }
