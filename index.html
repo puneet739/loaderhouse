@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Loaderhouse — Coming Soon</title>
+    <meta name="description" content="Loaderhouse is a logistics technology platform inspired by Porter. Fast, reliable, and scalable movement of goods for businesses and people." />
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/logo.png" type="image/png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Animate.css (subtle animations) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-b7vP9a8V8M/4z1cZ3nqU1S8mQHqQnq5gN8tAQ3bT2kA1Qy2C9xwUe0Wg3mL7V7y3Z6nH5l6l2jYf8lWQW8Yf2w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#home">
+          <img src="./assets/logo.png" alt="Loaderhouse" height="36" class="me-2" />
+          <span class="fw-bold">Loaderhouse</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#video">Demo</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero / Coming Soon -->
+    <header id="home" class="py-5 bg-gradient position-relative overflow-hidden">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3 animate__animated animate__fadeInUp">Logistics, Simplified.</h1>
+            <p class="lead mb-4 text-secondary animate__animated animate__fadeInUp animate__delay-1s">Loaderhouse is a next‑gen logistics platform inspired by Porter — built to power fast, reliable deliveries and on‑demand fleet management for businesses of every size.</p>
+            <div class="d-flex gap-2 mb-4 animate__animated animate__fadeInUp animate__delay-2s">
+              <a href="#contact" class="btn btn-primary btn-lg"><i class="bi bi-bell me-2"></i>Notify Me</a>
+              <a href="#features" class="btn btn-outline-primary btn-lg">Learn More</a>
+            </div>
+            <div class="card border-0 shadow-sm w-auto countdown-card animate__animated animate__fadeInUp animate__delay-3s">
+              <div class="card-body">
+                <h6 class="text-uppercase text-muted mb-2">Launching In</h6>
+                <div id="countdown" class="d-flex gap-3" data-launch="2025-12-12T10:00:00+05:30">
+                  <!-- Filled by JS -->
+                </div>
+                <small class="text-muted">Mark your calendar and be the first to know when we go live.</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center mt-5 mt-lg-0">
+            <div class="hero-illustration position-relative">
+              <div class="glow"></div>
+              <img src="./assets/logo.png" alt="Loaderhouse Logo" class="hero-logo" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shape-bottom"></div>
+    </header>
+
+    <!-- Features -->
+    <section id="features" class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Why Loaderhouse</h2>
+          <p class="text-secondary">Everything you need to move anything, anywhere — reliably.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card h-100 p-4 border-0 shadow-sm">
+              <div class="icon-wrap bg-primary-subtle text-primary"><i class="bi bi-truck"></i></div>
+              <h5 class="mt-3">On‑Demand Fleet</h5>
+              <p class="text-secondary mb-0">Access a verified network of drivers and vehicles in real time with intelligent dispatching.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card h-100 p-4 border-0 shadow-sm">
+              <div class="icon-wrap bg-success-subtle text-success"><i class="bi bi-speedometer2"></i></div>
+              <h5 class="mt-3">ETA & Route Optimization</h5>
+              <p class="text-secondary mb-0">Smart routing and live ETAs ensure faster deliveries and lower costs.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card h-100 p-4 border-0 shadow-sm">
+              <div class="icon-wrap bg-warning-subtle text-warning"><i class="bi bi-shield-check"></i></div>
+              <h5 class="mt-3">Secure & Transparent</h5>
+              <p class="text-secondary mb-0">End‑to‑end tracking, proof of delivery, and robust privacy controls.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card h-100 p-4 border-0 shadow-sm">
+              <div class="icon-wrap bg-info-subtle text-info"><i class="bi bi-phone"></i></div>
+              <h5 class="mt-3">Seamless Apps</h5>
+              <p class="text-secondary mb-0">Modern, intuitive apps across iOS, Android, and web for shippers and drivers.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card h-100 p-4 border-0 shadow-sm">
+              <div class="icon-wrap bg-danger-subtle text-danger"><i class="bi bi-clipboard2-check"></i></div>
+              <h5 class="mt-3">Compliance Ready</h5>
+              <p class="text-secondary mb-0">Built‑in KYC, GST invoicing, and audit trails for business workflows.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card h-100 p-4 border-0 shadow-sm">
+              <div class="icon-wrap bg-secondary-subtle text-secondary"><i class="bi bi-cloud-arrow-up"></i></div>
+              <h5 class="mt-3">APIs & Integrations</h5>
+              <p class="text-secondary mb-0">Connect with ERPs, storefronts, and custom systems with ease.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HTML5 Video / Animation section -->
+    <section id="video" class="py-5">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6">
+            <div class="ratio ratio-16x9 rounded overflow-hidden shadow-sm">
+              <video class="w-100 h-100" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=1200&auto=format&fit=crop">
+                <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="fw-bold">Built for Speed and Scale</h3>
+            <p class="text-secondary">From single‑parcel drops to full‑truckload moves, Loaderhouse is engineered to deliver at any scale with real‑time visibility and automation.</p>
+            <ul class="list-unstyled lead">
+              <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Realtime tracking & alerts</li>
+              <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Smart pricing models</li>
+              <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Best‑in‑class reliability</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">What Early Users Say</h2>
+          <p class="text-secondary">Trusted by teams testing our beta release.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 shadow-sm h-100 p-4">
+              <p class="lead mb-3">“Loaderhouse cut our city delivery times by 28% in just two weeks.”</p>
+              <div class="d-flex align-items-center gap-3">
+                <img class="rounded-circle" src="https://i.pravatar.cc/80?img=1" width="56" height="56" alt="User" />
+                <div>
+                  <div class="fw-semibold">Ananya Gupta</div>
+                  <div class="text-muted small">Ops Lead, UrbanMart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 shadow-sm h-100 p-4">
+              <p class="lead mb-3">“Flexible APIs helped us integrate fulfillment in days, not weeks.”</p>
+              <div class="d-flex align-items-center gap-3">
+                <img class="rounded-circle" src="https://i.pravatar.cc/80?img=5" width="56" height="56" alt="User" />
+                <div>
+                  <div class="fw-semibold">Rahul Verma</div>
+                  <div class="text-muted small">CTO, Freshly</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 shadow-sm h-100 p-4">
+              <p class="lead mb-3">“Transparent pricing and reliable ETAs made our customers happier.”</p>
+              <div class="d-flex align-items-center gap-3">
+                <img class="rounded-circle" src="https://i.pravatar.cc/80?img=15" width="56" height="56" alt="User" />
+                <div>
+                  <div class="fw-semibold">Meera Iyer</div>
+                  <div class="text-muted small">Founder, Craft & Co.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 shadow-sm h-100 p-4">
+              <p class="lead mb-3">“Driver onboarding was seamless; KYC and verification felt effortless.”</p>
+              <div class="d-flex align-items-center gap-3">
+                <img class="rounded-circle" src="https://i.pravatar.cc/80?img=11" width="56" height="56" alt="User" />
+                <div>
+                  <div class="fw-semibold">Sanjay Kumar</div>
+                  <div class="text-muted small">Fleet Owner</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 shadow-sm h-100 p-4">
+              <p class="lead mb-3">“Live tracking and clean ETAs reduced support calls by half.”</p>
+              <div class="d-flex align-items-center gap-3">
+                <img class="rounded-circle" src="https://i.pravatar.cc/80?img=22" width="56" height="56" alt="User" />
+                <div>
+                  <div class="fw-semibold">Aditi Rao</div>
+                  <div class="text-muted small">Customer Success, BigBasket-like</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 shadow-sm h-100 p-4">
+              <p class="lead mb-3">“We plugged into the APIs and automated dispatch in under a week.”</p>
+              <div class="d-flex align-items-center gap-3">
+                <img class="rounded-circle" src="https://i.pravatar.cc/80?img=30" width="56" height="56" alt="User" />
+                <div>
+                  <div class="fw-semibold">Karthik N</div>
+                  <div class="text-muted small">Head of Engineering, D2C Brand</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <h2 class="fw-bold mb-3">Get Notified</h2>
+            <p class="text-secondary">Share your details and we’ll let you know when Loaderhouse goes live. We’re also inviting a limited set of partners to our private beta.</p>
+            <div class="d-flex align-items-center gap-3 mt-4">
+              <div class="icon-cta bg-primary-subtle text-primary"><i class="bi bi-envelope-open"></i></div>
+              <div>
+                <div class="fw-semibold">info@loaderhouse.com</div>
+                <div class="text-muted small">We usually reply within 24 hours.</div>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-3 mt-3">
+              <div class="icon-cta bg-success-subtle text-success"><i class="bi bi-geo-alt"></i></div>
+              <div>
+                <div class="fw-semibold">Delhi, India</div>
+                <div class="text-muted small">Operating across Faridabad/NCR. Soon to expand to other Indian cities.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body p-4">
+                <h5 class="fw-semibold mb-3">Join the waitlist</h5>
+                <form id="contactForm" class="needs-validation" novalidate>
+                  <!-- Replace action with your Formspree/Backend endpoint -->
+                  <input type="hidden" name="_action" value="waitlist" />
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label for="name" class="form-label">Full Name</label>
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required />
+                      <div class="invalid-feedback">Please enter your name.</div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required />
+                      <div class="invalid-feedback">Please enter a valid email address.</div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="company" class="form-label">Company</label>
+                      <input type="text" class="form-control" id="company" name="company" placeholder="Your Company" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="phone" class="form-label">Phone</label>
+                      <input type="tel" class="form-control" id="phone" name="phone" placeholder="+91 98000 00000" />
+                    </div>
+                    <div class="col-12">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea class="form-control" id="message" name="message" rows="3" placeholder="Tell us about your logistics needs..."></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary w-100">
+                        <span class="default"><i class="bi bi-send me-2"></i>Submit</span>
+                        <span class="loading d-none"><span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Sending...</span>
+                      </button>
+                      <div id="formAlert" class="alert mt-3 d-none" role="alert"></div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 border-top bg-white">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <div class="d-flex align-items-center gap-2 text-muted">
+          <img src="./assets/logo.png" alt="Loaderhouse" height="20" />
+          <span>© <span id="year"></span> Loaderhouse</span>
+        </div>
+        <div class="d-flex gap-3">
+          <a class="text-muted" href="#features">Features</a>
+          <a class="text-muted" href="#contact">Contact</a>
+          <a class="text-muted" href="#">Privacy</a>
+          <a class="text-muted" href="#">Terms</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Main JS -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
