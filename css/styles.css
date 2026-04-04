@@ -30,8 +30,8 @@ html, body {
 .hero-illustration .hero-logo {
   position: relative;
   z-index: 1;
-  width: 220px;
-  height: 220px;
+  width: min(320px, 100%);
+  height: auto;
   opacity: 0.95;
 }
 
@@ -113,7 +113,7 @@ footer a:hover {
 /* Responsive tweaks */
 @media (max-width: 575.98px) {
   #countdown .unit { min-width: 68px; padding: 8px 10px; }
-  .hero-illustration .hero-logo { width: 160px; height: 160px; }
+  .hero-illustration .hero-logo { width: min(220px, 75vw); height: auto; }
 }
 
 /* Policy page */
