@@ -1,0 +1,240 @@
+{
+  "pages": [
+    {
+      "slug": "industries/ecommerce-logistics",
+      "type": "Service",
+      "title": "Ecommerce Logistics in India | Loaderhouse",
+      "description": "Plan ecommerce logistics with Loaderhouse for pickup coordination, freight visibility, proof of delivery, and practical movement of online orders.",
+      "h1": "Ecommerce logistics for visible order movement",
+      "eyebrow": "Industry Logistics",
+      "intro": "Loaderhouse helps ecommerce teams coordinate pickups, choose suitable transport capacity, and keep shipments visible from dispatch to delivery.",
+      "primaryCta": "Talk to Loaderhouse",
+      "sections": [
+        {
+          "heading": "Pickup planning for daily order flow",
+          "body": "Ecommerce logistics needs a steady rhythm for seller pickups, warehouse transfers, return movement, and customer-bound deliveries. Loaderhouse is built around clear load details, pickup timing, vehicle fit, and dispatch coordination so teams can plan movement without scattered follow-ups."
+        },
+        {
+          "heading": "Visibility for customer-facing teams",
+          "body": "Support, operations, and sales teams all need shipment status they can trust. Loaderhouse focuses on practical visibility signals such as pickup status, in-transit updates, delivery confirmation, and exception notes, helping teams answer customer questions with less manual checking."
+        },
+        {
+          "heading": "Flexible capacity for changing demand",
+          "body": "Online order volumes can change by season, campaign, location, and product category. A logistics platform helps teams compare load size, delivery urgency, route needs, and transporter availability before assigning movement to the right option."
+        },
+        {
+          "heading": "Proof of delivery and cleaner records",
+          "body": "A clear delivery record matters for reconciliation, customer service, and transporter coordination. Loaderhouse supports structured shipment information so teams can keep pickup, delivery, and exception details easier to review after the load is complete."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What does ecommerce logistics include?",
+          "answer": "Ecommerce logistics includes pickup planning, warehouse movement, customer delivery, returns, shipment tracking, proof of delivery, and coordination with transport partners."
+        },
+        {
+          "question": "Can Loaderhouse support both first-mile and last-mile movement?",
+          "answer": "Loaderhouse is designed to support planned goods movement across pickup, transfer, and delivery workflows. Exact service availability depends on the route, shipment type, and operating coverage."
+        },
+        {
+          "question": "How does visibility help ecommerce teams?",
+          "answer": "Visibility helps teams know whether a shipment is booked, picked up, in transit, delayed, delivered, or facing an exception, which reduces repeated calls between operations, support, and transport partners."
+        },
+        {
+          "question": "Is ecommerce logistics only for small parcels?",
+          "answer": "No. Ecommerce logistics can include parcels, cartons, inventory transfers, bulk marketplace movement, return loads, and larger shipments that need suitable vehicle capacity."
+        },
+        {
+          "question": "What should ecommerce teams share before booking transport?",
+          "answer": "Teams should share pickup and delivery locations, shipment weight and volume, package count, delivery timelines, handling needs, invoice or e-way bill details where applicable, and contact information for both ends."
+        }
+      ],
+      "related": [
+        "industries/manufacturing-logistics",
+        "guides/freight-visibility-in-india",
+        "compare/logistics-platform-vs-transport-broker",
+        "services/city-delivery",
+        "services/mini-truck-booking"
+      ],
+      "priority": "0.72",
+      "changefreq": "monthly"
+    },
+    {
+      "slug": "industries/manufacturing-logistics",
+      "type": "Service",
+      "title": "Manufacturing Logistics in India | Loaderhouse",
+      "description": "Use Loaderhouse to plan manufacturing logistics for raw material movement, finished goods dispatch, transporter coordination, and freight visibility.",
+      "h1": "Manufacturing logistics for planned freight movement",
+      "eyebrow": "Industry Logistics",
+      "intro": "Loaderhouse helps manufacturing teams coordinate inbound materials, outbound finished goods, and shipment visibility across day-to-day freight operations.",
+      "primaryCta": "Talk to Loaderhouse",
+      "sections": [
+        {
+          "heading": "Inbound material coordination",
+          "body": "Manufacturing teams depend on timely movement of raw materials, components, packaging, and consumables. Loaderhouse gives dispatch teams a structured way to capture load requirements, pickup windows, destination details, and transporter status before production schedules are affected."
+        },
+        {
+          "heading": "Outbound dispatch for finished goods",
+          "body": "Finished goods movement often involves plant dispatch desks, warehouses, dealers, distributors, and customer delivery points. A platform workflow helps teams organize vehicle requirements, route information, documents, and handover details in one place."
+        },
+        {
+          "heading": "Clear status for plant and sales teams",
+          "body": "When freight updates are spread across calls and messages, teams lose time confirming basic shipment status. Loaderhouse supports visibility around booking, placement, loading, transit, delivery, and exceptions so plant, warehouse, and customer-facing teams can work from clearer information."
+        },
+        {
+          "heading": "Transporter performance without guesswork",
+          "body": "Manufacturers need reliable records of assigned transporters, load completion, delays, proof of delivery, and issue notes. Keeping these details structured helps teams review operations, follow up with partners, and improve future dispatch planning."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is manufacturing logistics?",
+          "answer": "Manufacturing logistics covers the movement of raw materials, components, packaging, spare parts, work-in-progress items, and finished goods between suppliers, plants, warehouses, dealers, and customers."
+        },
+        {
+          "question": "How can Loaderhouse help a manufacturing dispatch team?",
+          "answer": "Loaderhouse helps dispatch teams capture shipment requirements, coordinate transporters, track movement status, manage delivery records, and reduce manual follow-up across routine freight workflows."
+        },
+        {
+          "question": "Can Loaderhouse support full truckload movement?",
+          "answer": "Loaderhouse can support planned road freight workflows where shipment size, route, vehicle type, and transporter availability are matched before dispatch. Final fit depends on load and lane requirements."
+        },
+        {
+          "question": "Why is proof of delivery important for manufacturers?",
+          "answer": "Proof of delivery gives teams a record that the shipment reached the receiving point, which helps with customer communication, payment follow-up, issue resolution, and internal reconciliation."
+        },
+        {
+          "question": "What details should a manufacturer capture before assigning a load?",
+          "answer": "Important details include material type, weight, dimensions, pickup and delivery addresses, vehicle preference, loading equipment needs, documentation, contact persons, timing, and any handling instructions."
+        }
+      ],
+      "related": [
+        "industries/ecommerce-logistics",
+        "guides/freight-visibility-in-india",
+        "compare/logistics-platform-vs-transport-broker",
+        "services/mini-truck-booking",
+        "services/city-delivery"
+      ],
+      "priority": "0.72",
+      "changefreq": "monthly"
+    },
+    {
+      "slug": "guides/freight-visibility-in-india",
+      "type": "Article",
+      "title": "Freight Visibility in India: Practical Guide | Loaderhouse",
+      "description": "A practical guide to freight visibility in India, covering shipment status, transporter updates, proof of delivery, exception handling, and platform workflows.",
+      "h1": "Freight visibility in India: a practical guide",
+      "eyebrow": "Logistics Guide",
+      "intro": "Freight visibility helps teams understand where a load stands, who owns the next action, and what needs attention before delivery is missed or delayed.",
+      "primaryCta": "Explore Loaderhouse",
+      "sections": [
+        {
+          "heading": "What freight visibility means",
+          "body": "Freight visibility is the ability to see useful shipment information from booking to delivery. It is not only a map location. Useful visibility includes assignment status, vehicle placement, loading, transit updates, delivery confirmation, delay reasons, and exception notes."
+        },
+        {
+          "heading": "Why visibility is difficult in road freight",
+          "body": "Road freight often involves multiple people, changing routes, phone-based updates, document checks, loading delays, and delivery-point constraints. Without a shared system, the same shipment status may be requested repeatedly by sales, warehouse, finance, and customer service teams."
+        },
+        {
+          "heading": "Signals worth tracking",
+          "body": "Teams should track the signals that help decisions: booking confirmation, transporter assignment, expected pickup, vehicle reporting, departure, in-transit check-ins, delay reason, delivery attempt, proof of delivery, and unresolved exceptions."
+        },
+        {
+          "heading": "How a platform improves visibility",
+          "body": "A logistics platform gives teams a structured place to create loads, assign transport partners, collect updates, view exceptions, and preserve delivery records. The goal is not more data for its own sake, but fewer blind spots and faster follow-up."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is freight visibility the same as GPS tracking?",
+          "answer": "No. GPS tracking is one visibility input, but freight visibility also includes shipment status, transporter communication, documents, proof of delivery, exception notes, and operational ownership."
+        },
+        {
+          "question": "Who benefits from freight visibility?",
+          "answer": "Dispatch teams, warehouse teams, sales teams, finance teams, customer support, transporters, and customers can all benefit when shipment status and delivery records are easier to access."
+        },
+        {
+          "question": "What is an exception in freight movement?",
+          "answer": "An exception is any event that needs attention, such as delayed pickup, vehicle unavailability, route disruption, loading issue, document mismatch, failed delivery attempt, or missing delivery confirmation."
+        },
+        {
+          "question": "Do small businesses need freight visibility?",
+          "answer": "Small businesses can benefit from visibility when they manage repeated shipments, customer commitments, vendor pickups, or transporter follow-ups that are hard to track manually."
+        },
+        {
+          "question": "How should a team start improving freight visibility?",
+          "answer": "Start by standardizing shipment creation, required load details, status checkpoints, transporter update rules, exception notes, and proof of delivery records before adding more advanced tracking."
+        }
+      ],
+      "related": [
+        "industries/ecommerce-logistics",
+        "industries/manufacturing-logistics",
+        "compare/logistics-platform-vs-transport-broker",
+        "services/city-delivery",
+        "services/mini-truck-booking"
+      ],
+      "priority": "0.65",
+      "changefreq": "quarterly"
+    },
+    {
+      "slug": "compare/logistics-platform-vs-transport-broker",
+      "type": "Article",
+      "title": "Logistics Platform vs Transport Broker | Loaderhouse",
+      "description": "Compare logistics platforms and transport brokers neutrally across visibility, coordination, records, flexibility, and freight operations fit.",
+      "h1": "Logistics platform vs transport broker",
+      "eyebrow": "Comparison",
+      "intro": "Both logistics platforms and transport brokers can help move freight. The right choice depends on how much structure, visibility, control, and human coordination your operation needs.",
+      "primaryCta": "Compare your workflow",
+      "sections": [
+        {
+          "heading": "How the two models work",
+          "body": "A transport broker typically helps find or coordinate transport capacity through relationships and manual communication. A logistics platform provides a structured workflow for creating loads, assigning movement, tracking status, collecting records, and reviewing operational details."
+        },
+        {
+          "heading": "Where brokers can fit well",
+          "body": "A broker can be useful when teams need relationship-led support, local market knowledge, lane familiarity, or help finding capacity for a specific shipment. This model may work well for teams that prefer direct human coordination and have simpler record-keeping needs."
+        },
+        {
+          "heading": "Where platforms can fit well",
+          "body": "A logistics platform can be useful when teams need repeatable processes, shipment visibility, proof of delivery, internal reporting, multi-team access, and cleaner transporter communication. This model is often a better fit when freight coordination is frequent or spread across teams."
+        },
+        {
+          "heading": "Choosing based on workflow maturity",
+          "body": "The decision is less about which model is universally better and more about the operating problem. If the main issue is finding a vehicle, broker support may be enough. If the issue is coordination, visibility, records, and scale, a platform may be more suitable."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is a logistics platform better than a transport broker?",
+          "answer": "Not always. A logistics platform is better suited to structured, repeatable workflows with visibility and records. A broker can be suitable for relationship-led capacity sourcing and shipment-by-shipment coordination."
+        },
+        {
+          "question": "Can a business use both a platform and brokers?",
+          "answer": "Yes. Some businesses use a platform to manage shipment workflows while still working with trusted brokers or transport partners for capacity on specific routes."
+        },
+        {
+          "question": "What should I compare before choosing?",
+          "answer": "Compare shipment frequency, visibility needs, documentation, number of internal users, exception handling, transporter network needs, cost clarity, and the effort required to manage follow-ups."
+        },
+        {
+          "question": "Does a logistics platform remove human coordination?",
+          "answer": "No. A platform organizes the workflow, but human coordination still matters for exceptions, loading issues, transporter discussions, and customer communication."
+        },
+        {
+          "question": "When should a company move from broker-only coordination to a platform?",
+          "answer": "A platform becomes useful when manual coordination creates repeated delays, unclear status, missing delivery records, scattered communication, or difficulty reviewing freight activity across teams."
+        }
+      ],
+      "related": [
+        "guides/freight-visibility-in-india",
+        "industries/ecommerce-logistics",
+        "industries/manufacturing-logistics",
+        "services/city-delivery",
+        "services/mini-truck-booking"
+      ],
+      "priority": "0.62",
+      "changefreq": "quarterly"
+    }
+  ]
+}

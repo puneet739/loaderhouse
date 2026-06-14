@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build:seo": "node scripts/build-seo.mjs",
+    "verify:seo": "node scripts/verify-seo.mjs",
+    "test:homepage": "bash tests/homepage_live_check.sh",
+    "test:seo": "node tests/seo-framework.test.mjs"
+  }
+}

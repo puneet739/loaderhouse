@@ -1,4 +1,4 @@
-// Loaderhouse Coming Soon - Main JS
+// Loaderhouse - Main JS
 
 // Utilities
 const $ = (sel, ctx = document) => ctx.querySelector(sel);
@@ -79,7 +79,7 @@ function initContactForm() {
       await new Promise((res) => setTimeout(res, 1000));
 
       alertBox.className = 'alert alert-success mt-3';
-      alertBox.textContent = 'Thanks! You\'re on the waitlist. We\'ll be in touch soon.';
+      alertBox.textContent = 'Thanks! We received your enquiry and will be in touch soon.';
       alertBox.classList.remove('d-none');
       form.reset();
       form.classList.remove('was-validated');

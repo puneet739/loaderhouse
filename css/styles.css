@@ -1,4 +1,4 @@
-/* Loaderhouse Coming Soon - Custom Styles */
+/* Loaderhouse - Custom Styles */
 :root {
   --lh-primary: #0d6efd;
   --lh-dark: #0b1424;
@@ -85,6 +85,50 @@ html, body {
   display: grid;
   place-items: center;
   font-size: 1.2rem;
+}
+
+.app-panel {
+  background: #fff;
+  border: 1px solid rgba(13, 110, 253, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 18px 50px rgba(11, 20, 36, 0.08);
+}
+
+.app-download {
+  border: 1px solid rgba(13, 110, 253, 0.14);
+  border-radius: 12px;
+  color: var(--lh-dark);
+  padding: 1rem 1.1rem;
+  text-decoration: none;
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.app-download:hover {
+  border-color: rgba(13, 110, 253, 0.35);
+  box-shadow: 0 12px 28px rgba(11, 20, 36, 0.08);
+  color: var(--lh-dark);
+  transform: translateY(-2px);
+}
+
+.app-download small {
+  color: var(--lh-muted);
+  display: block;
+}
+
+.app-download i {
+  color: var(--lh-primary);
+  font-size: 1.4rem;
+}
+
+.operation-card {
+  background: #fff;
+  border: 1px solid rgba(11, 20, 36, 0.06);
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(11, 20, 36, 0.05);
+}
+
+.operation-card i {
+  font-size: 1.7rem;
 }
 
 /* CTA icons in contact */
